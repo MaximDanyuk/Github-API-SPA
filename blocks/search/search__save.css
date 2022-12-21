@@ -1,0 +1,9 @@
+.search__save {
+  margin: 0;
+  padding: 20px 10px;
+  width: 340px;
+  box-sizing: border-box;
+  border: #644bff 1px solid;
+  border-radius: 6px;
+  min-height: 100px;
+}

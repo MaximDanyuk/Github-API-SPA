@@ -1,0 +1,12 @@
+@import url("../vendor/normalize.css");
+@import url("../blocks/app/app.css");
+@import url("../blocks/app/app__card.css");
+@import url("../blocks/app/app__search.css");
+@import url("../blocks/card/card.css");
+@import url("../blocks/card/card__clodeBtn.css");
+@import url("../blocks/root/root.css");
+@import url("../blocks/search/search.css");
+@import url("../blocks/search/search__content.css");
+@import url("../blocks/search/search__input.css");
+@import url("../blocks/search/search__output.css");
+@import url("../blocks/search/search__save.css");

@@ -1,0 +1,7 @@
+.card__clodeBtn {
+  background-color: inherit;
+  border: none;
+  padding: 0;
+  align-self: flex-start;
+  margin-left: auto;
+}

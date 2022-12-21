@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/style.css" />
+    <title>Github API</title>
+  </head>
+  <body class="root">
+    <div class="app">
+      <section class="search app__search">
+        <h1 class="search__title">GitHub search repositories</h1>
+        <div class="search__content">
+          <form class="search__form">
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Type to search..."
+            />
+          </form>
+          <ul class="search__output"></ul>
+        </div>
+        <ul class="search__save"></ul>
+      </section>
+    </div>
+    <template id="tamlate-card">
+      <li class="card app__card">
+        <div class="card__content">
+          <p class="card__name"></p>
+          <p class="card__owner"></p>
+          <p class="card__stars"></p>
+        </div>
+
+        <button type="button" class="card__clodeBtn">X</button>
+      </li>
+    </template>
+    <script src="pages/index.js" type="module"></script>
+  </body>
+</html>

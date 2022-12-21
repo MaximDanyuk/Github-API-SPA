@@ -1,0 +1,15 @@
+.card {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.card:nth-child(n):not(:last-child) {
+  border-bottom: 1px black solid;
+}
+
+.card:hover {
+  background-color: #efefef;
+}
