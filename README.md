@@ -1,4 +1,4 @@
-# «Место» - демонстрация работы с github api и fetch в рамках [учебы](https://kata.academy/frontend/postpayment)
+# Работа - демонстрация работы с github api и fetch в рамках [учебы](https://kata.academy/frontend/postpayment)
 
 ## О проекте
 
